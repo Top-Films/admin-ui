@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { useAuth } from 'react-oidc-context';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
+import { Header } from '../../components/header/Header';
 import Loader from '../../components/loader/Loader';
 import classes from './root.module.css';
-import { Header } from '../../components/header/Header';
 
 /**
  * Root element for the UI. Wraps child component with the header and footer
